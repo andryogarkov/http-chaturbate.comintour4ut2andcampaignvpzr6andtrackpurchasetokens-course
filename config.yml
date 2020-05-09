@@ -1,0 +1,19 @@
+title: 'http://chaturbate.com/in/?tour=4uT2&campaign=VPZR6&track=purchasetokens'
+description: >-
+  <iframe
+  src='https://chaturbate.com/in/?tour=nvfS&campaign=VPZR6&track=embed&bgcolor=white'
+  height=528 width=850 style='border: none;'></iframe>
+template:
+  repo: 'http:chaturbate.comintour4ut2andcampaignvpzr6andtrackpurchasetokens-template'
+  name: 'http:chaturbate.comintour4ut2andcampaignvpzr6andtrackpurchasetokens'
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
